@@ -89,3 +89,10 @@ function allSalaries(){
    };
 }
 console.log(allSalaries()(employees));
+
+// task 4
+
+let Arr1 = [2, 15, 7, 3];
+let Arr2 = [9, 3, 17, 12, 4, 8];
+let Arr3 = [6, 11, 16, 15, 11];
+Math.max(...[...Arr1, ...Arr2, ...Arr3]);
